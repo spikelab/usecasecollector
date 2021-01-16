@@ -42,6 +42,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Svelte Build dir
+public/build/
+
 # TypeScript v1 declaration files
 typings/
 
