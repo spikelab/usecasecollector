@@ -20,8 +20,8 @@
 
 <style global>
     /* purgecss start ignore */
-    @import "tailwindcss/base";
-    @import "tailwindcss/components";
+    @tailwind base;
+    @tailwind components;
     /* purgecss end ignore */
-    @import "tailwindcss/utilities";
+    @tailwind utilities;
 </style>
