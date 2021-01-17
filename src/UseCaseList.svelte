@@ -1,9 +1,9 @@
 <script>
-    import UseCase from "./UseCase.svelte"
+    import UseCase from "./UseCase.svelte";
 </script>
 
-<UseCase></UseCase>
-<UseCase></UseCase>
-<UseCase></UseCase>
-<UseCase></UseCase>
-<UseCase>ß</UseCase>
+<UseCase />
+<UseCase />
+<UseCase />
+<UseCase />
+<UseCase />
