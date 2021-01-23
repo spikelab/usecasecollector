@@ -2,8 +2,10 @@
     import UseCase from "./UseCase.svelte";
 </script>
 
-<UseCase />
-<UseCase />
-<UseCase />
-<UseCase />
-<UseCase />
+<div class="m-4">
+    <UseCase />
+    <UseCase />
+    <UseCase />
+    <UseCase />
+    <UseCase />
+</div>

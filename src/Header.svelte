@@ -2,10 +2,17 @@
     import App from "./App.svelte";
 </script>
 
-<header>
-    <img src="/imgs/logo.png" alt="use case logo" />
-    <h1>Use Case Collector</h1>
-    <h2>Help us collect existing use cases and come up with new ones</h2>
+<!-- <header class="m-4 flex items-center">
+    <div class=" text-gray-900 p-2">
+        <img src="/imgs/logo.png" class="h-24" alt="use case logo" />
+        <p class="text-xl font-black">Use Case Collector</p>
+        <p class="font-light">Help us collect existing use cases and come up with new ones</p>
+    </div>
+</header> -->
+<header class="text-gray-900 m-4 flex flex-col items-center">
+        <img src="/imgs/logo.png" class="h-20 mb-2" alt="use case logo" />
+        <p class="text-xl font-black mb-1">Use Case Collector</p>
+        <p class="font-light text-sm">Help us collect existing use cases and come up with new ones</p>
 </header>
 
 <style>
