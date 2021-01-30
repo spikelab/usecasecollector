@@ -12,4 +12,14 @@ module.exports = {
         ],
         enabled: production, // disable purge in dev
     },
+    theme: {
+        fontFamily: {
+            sans: ['"Montserrat"', 'sans-serif']
+        }
+    },
+    variants: {
+        extend: {
+            borderWidth: ['hover', 'focus'],
+        }
+    }
 };

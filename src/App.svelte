@@ -1,11 +1,11 @@
 <script>
     import Header from "./Header.svelte";
-    import UseCaseInput from "./UseCaseInput.svelte";
+    import UseCaseInputList from "./UseCaseInputList.svelte";
     import UseCaseList from "./UseCaseList.svelte";
 </script>
 
 <Header />
-<UseCaseInput />
+<UseCaseInputList />
 <UseCaseList />
 
 <style global>
